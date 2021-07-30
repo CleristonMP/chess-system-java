@@ -4,9 +4,6 @@ public abstract class Piece {
 	
 	protected Position position;
 	private Board board;
-	
-	Piece(){
-	}
 
 	public Piece(Board board) {
 		this.board = board;
@@ -16,10 +13,5 @@ public abstract class Piece {
 	protected Board getBoard() {
 		return board;
 	}
-
-	public boolean possibleMoves() {
-		return true;		
-	}
-	
 
 }
